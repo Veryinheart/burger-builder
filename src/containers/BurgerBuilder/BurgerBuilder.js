@@ -4,11 +4,12 @@ import Aux from "../../hoc/Aux";
 import Burger from '../../components/Burger/Burger';
 
 export class BurgerBuilder extends Component {
+
   render() {
     return (
       <Aux>
-        <Burger/>
-        <div>burger content</div>
+        <Burger></Burger>
+        <div>burger controls</div>
       </Aux> 
     );
   }

@@ -1,5 +1,5 @@
 import React from 'react'
-import classes from './Burger.css';
+import classes from './Burger.module.css';
 import BurgerIngrtedient from './BurgerIngredient/BurgerIngredient';
 const Burger = (props) => {
     return (
